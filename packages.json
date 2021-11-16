@@ -1,0 +1,72 @@
+[
+  {
+    "description": "Packages For HelloWorld",
+    "packages": [
+      {
+        "base_repo": "https://github.com/immortalwrt/packages",
+        "multi-level": true,
+        "folder": "net",
+        "name": [
+          "dns2socks",
+          "microsocks",
+          "ipt2socks",
+          "pdnsd-alt",
+          "redsocks2"
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Packages For VSSR",
+    "packages": [
+      {
+        "base_repo": "https://github.com/jerrykuku/lua-maxminddb",
+        "multi-level": false,
+        "name": [
+          "lua-maxminddb"
+        ]
+      },
+      {
+        "base_repo": "https://github.com/jerrykuku/luci-app-vssr",
+        "multi-level": false,
+        "name": [
+          "luci-app-vssr"
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Packages For Adbyby Plus",
+    "packages": [
+      {
+        "base_repo": "https://github.com/coolsnowwolf/lede",
+        "multi-level": true,
+        "folder": "package/lean",
+        "name": [
+          "adbyby",
+          "luci-app-adbyby-plus"
+        ]
+      }
+    ]
+  },
+  {
+    "description": "Packages From Lean",
+    "packages": [
+      {
+        "base_repo": "https://github.com/coolsnowwolf/lede",
+        "multi-level": true,
+        "folder": "package/lean",
+        "name": [
+          "dnsforwarder",
+          "luci-app-accesscontrol",
+          "luci-app-arpbind",
+          "luci-app-autoreboot",
+          "uugamebooster",
+          "luci-app-uugamebooster",
+          "luci-app-zerotier",
+          "wol"
+        ]
+      }
+    ]
+  }
+]
